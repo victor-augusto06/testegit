@@ -1,0 +1,5 @@
+const prompt=require('prompt-sync')()
+var peso=prompt("Qual seu peso?")
+var altura=prompt("Qual sua altura?(COM VIRGULA)")
+var resultado=(peso/(altura**2))
+console.log(resultado)

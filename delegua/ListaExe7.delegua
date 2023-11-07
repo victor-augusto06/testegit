@@ -1,0 +1,7 @@
+var entrada=leia("Qual valor do cateto oposto?");
+var entrada1=leia("Qual valor do cateto adjacente?");
+var cat1=real(entrada);
+var cat2=real(entrada1);
+var hipquad=(cat1*cat1+cat2*cat2);
+var resultado=(hipquad**0.5);
+escreva(resultado);

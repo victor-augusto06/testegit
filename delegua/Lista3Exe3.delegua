@@ -1,0 +1,5 @@
+var entrada=texto(leia("Digita uma frase"))
+var entrada=entrada.substituir("Proibida", "Invalido")
+var entrada=entrada.substituir("Menor", "Invalido")
+var entrada=entrada.substituir("SENAO", "Invalido")
+escreva(entrada)

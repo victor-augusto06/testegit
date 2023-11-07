@@ -1,0 +1,5 @@
+var entrada=inteiro(leia("Digite a quantidade de vezes que o dado ira ser lançado"))
+para (var i=0;i<entrada;i=i+1) {
+    var numAleatorio=aleatorioEntre(1,21)
+    escreva(numAleatorio)
+}

@@ -1,0 +1,7 @@
+var entrada=leia("Quantas horas você trabalhou(Apenas o número)")
+var entrada2=leia("Quantas horas extras você trabalhou(Apenas o número)")
+var hora=real(entrada);
+var horaEx=real(entrada2);
+var bruto=(hora*10+horaEx*15);
+var liquido=bruto-(bruto*0.1);
+escreva("Seu salário bruto foi de "+bruto+" e seu salário liquído foi de "+liquido);

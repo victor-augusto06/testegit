@@ -1,0 +1,5 @@
+var entrada=leia("Qual o número desejado?");
+var num=inteiro(entrada);
+var ant=(num-1);
+var suc=(num+1);
+escreva("O antecessor é "+ant+(" e o sucessor é ")+suc);

@@ -1,0 +1,17 @@
+var vetor = [];
+
+fazer{
+    var n1 = leia("Digite o numero ('sair' para a soma)");
+    se (n1 == "sair"){
+        sustar;
+    }
+    vetor.empilhar(inteiro(n1));    
+}enquanto(verdadeiro)
+
+
+var total = 0;
+para (var i = 0; i < tamanho(vetor); i = i + 1) {
+    total = total + vetor[i];
+}
+escreva("A soma do vetor é "+total)
+escreva(vetor);

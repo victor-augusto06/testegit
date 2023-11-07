@@ -1,0 +1,24 @@
+var entrada=leia("Quantas notas de 2 reais você possui?");
+var nota1=inteiro(entrada);
+
+var entrada1=leia("Quantas notas de 5 reais você possui?");
+var nota2=inteiro(entrada1);
+
+var entrada2=leia("Quantas notas de 10 reais você possui?");
+var nota3=inteiro(entrada2);
+
+var entrada3=leia("Quantas notas de 20 reais você possui?");
+var nota4=inteiro(entrada3);
+
+var entrada4=leia("Quantas notas de 50 reais você possui?");
+var nota5=inteiro(entrada4);
+
+var entrada5=leia("Quantas notas de 100 reais você possui?");
+var nota6=inteiro(entrada5);
+
+var entrada6=leia("Quantas notas de 200 reais você possui?");
+var nota7=inteiro(entrada6);
+
+var resultado=((nota1*2)+(nota2*5)+(nota3*10)+(nota4*20)+(nota5*50)+(nota6*100)+(nota7*200));
+
+escreva("O total é de "+resultado);

@@ -1,0 +1,6 @@
+var entrada=leia("Qual seu peso?");
+var entrada1=leia("Qual sua altura?");
+var peso=real(entrada);
+var altura=real(entrada1);
+var imc=(peso/altura*altura);
+escreva("Seu IMC é de "+imc);

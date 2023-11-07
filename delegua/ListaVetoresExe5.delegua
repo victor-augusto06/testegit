@@ -1,0 +1,18 @@
+var vetor = [];
+
+para (var i = 0; i < 5; i = i + 1) {
+    var n1 = leia("Digite o numero ");
+    vetor[i] = inteiro(n1);
+}
+var repetidos = [];
+para (var i = 0; i < 5; i = i + 1) {
+    para (var j = 0; j < 5; j = j + 1) {
+        se ((vetor[i] == vetor[j]) e (j != i)){
+            //se repetidos.inclui(vetor[i]){
+                repetidos.empilhar(vetor[i]);
+            //}            
+        }
+    }
+}
+escreva("Os numeros  "+repetidos + " se repetem")
+escreva(vetor);

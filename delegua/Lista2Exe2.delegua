@@ -1,0 +1,40 @@
+var entrada1=leia("Primeiro número");
+var entrada2=leia("Segundo número");
+var entrada3=leia("Terceiro número");
+var num1=inteiro(entrada1)
+var num2=inteiro(entrada2)
+var num3=inteiro(entrada3)
+se (num1>num2 e num1>num3) {
+    
+    se (num2>num3) {
+        escreva(num1);
+        escreva(num2);
+        escreva(num3);
+        }
+     senao {
+        escreva(num1);
+        escreva(num3);
+        escreva(num2);
+    }
+}se (num2>num1 e num2>num3) {
+    
+    se (num1>num3) {
+        escreva(num2);
+        escreva(num1);
+        escreva(num3);
+    }senao{
+        escreva(num2)
+        escreva(num3)
+        escreva(num1)
+    }
+} senao {
+    se (num2>num1) {
+        escreva(num3);
+        escreva(num2);
+        escreva(num1);
+    }senao{
+        escreva(num3);
+        escreva(num1);
+        escreva(num2);
+    }
+}

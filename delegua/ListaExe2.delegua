@@ -1,0 +1,4 @@
+var entrada=leia("Quantos anos você tem?");
+var idade=inteiro(entrada);
+var resultado=(idade*365);
+escreva("Você já viveu "+ resultado);

@@ -1,0 +1,19 @@
+var vetor = [];
+para (var i = 0; i < 10; i = i + 1) {
+    
+    var n1 = leia("Digite o numero ");
+    vetor[i] = inteiro(n1);
+}
+var aux = 0;
+var troca = 0;
+para(var nInd=0; nInd<10; nInd = nInd + 1){
+    aux=nInd;
+    para(var nAtual=nInd+1; nAtual< 10; nAtual = nAtual + 1){
+        se(vetor[nAtual] < vetor[aux])
+            aux=nAtual;
+    }
+    troca = inteiro(vetor[aux]);
+    vetor[aux]=inteiro(vetor[nInd]);
+    vetor[nInd]=inteiro(troca);
+}
+escreva (vetor)

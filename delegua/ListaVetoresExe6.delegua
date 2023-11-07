@@ -1,0 +1,27 @@
+var peso = [];
+var altura = [];
+para (var i = 0; i < 15; i = i + 1) {
+    
+    var n1 = leia("Digite o peso ");
+    peso[i] = inteiro(n1);
+    var n1 = leia("Digite a altura ");
+    altura[i] = inteiro(n1);
+}
+
+var totalPeso = 0;
+var totalAltura = 0;
+var maiorAltura = 0;
+var indiceMaior = -1;
+para (var i = 0; i < 15; i = i + 1) {
+    totalPeso = totalPeso + inteiro(peso[i]);
+    totalAltura = totalAltura + inteiro(altura[i]);
+    se (altura[i] > maiorAltura){
+        indiceMaior = i;
+        maiorAltura = altura[i];
+    }
+}
+var mediaPeso = totalPeso/15;
+var mediaAltura = totalAltura/15;
+escreva("A altura media é "+mediaPeso)
+escreva("O peso medio é "+mediaAltura)
+escreva("O aluno mais alto é "+indiceMaior + " com "+maiorAltura)

@@ -1,0 +1,4 @@
+var entrada=leia("Qual o valor em reais?")
+var reais=real(entrada)
+var dolar=(reais*0.2)
+escreva("O valor de "+reais+" reais em dolares é de "+dolar+" dolares")

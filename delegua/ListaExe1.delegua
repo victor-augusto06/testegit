@@ -1,0 +1,4 @@
+var entrada=leia("Qual é o valor do raio?");
+var raio=real(entrada);
+var resultado=(raio*raio*3.14);
+escreva("O valor da área da circunferencia é de "+ resultado);

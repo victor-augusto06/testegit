@@ -1,0 +1,4 @@
+var vetor[]
+var nome=leia("Digite o seu nome")
+var tam=tamanho(nome)
+escreva(tam)

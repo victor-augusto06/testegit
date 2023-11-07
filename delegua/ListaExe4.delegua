@@ -1,0 +1,8 @@
+var entrada=leia("Qual foi a primeira nota?");
+var entrada1=leia("Qual foi a segunda nota?");
+var entrada2=leia("Qual foi a terceira nota?");
+var nota1=real(entrada);
+var nota2=real(entrada1);
+var nota3=real(entrada2);
+var resultado=((nota1*1+nota2*2+nota3*3)/6);
+escreva(resultado);

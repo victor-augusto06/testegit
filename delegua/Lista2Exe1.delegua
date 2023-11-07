@@ -1,0 +1,8 @@
+var entrada=leia("Escolha um número inteiro");
+var num=inteiro(entrada)
+var numPar=(num%2)
+se (numPar==0) {
+    escreva(num+" é um número par");
+} senao{
+    escreva(num+" é um número primo")
+}
